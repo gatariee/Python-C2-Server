@@ -40,6 +40,7 @@ API calls are handled by the beacon
 | Returns the status of clients |
 
 - ```POST /command```
+
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `command`      | `string` | Sends command to be executed by the victim  |
@@ -50,16 +51,17 @@ API calls are handled by the beacon
 | :-------------------------         |
 | Retrieves the latest command to be executed by the victim |
 
-
 - ```POST /post_result```
+
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `result`      | `string` | Result of the command executed by the victim  |
+| `result`  | `string` | Result of the command executed by the victim  |
 
 - ```GET /get_result```
+
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `result`      | `string` | Returns the result of the latest command executed by victim  |
+| `result`  | `string` | Returns the result of the latest command executed by victim  |
 
 
 ## Note
