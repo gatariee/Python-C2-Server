@@ -55,13 +55,13 @@ API calls are handled by the beacon
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `result`  | `string` | Result of the command executed by the victim  |
+| `result`  | `string` | Sends the result of the command executed by the victim  |
 
 - ```GET /get_result```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `result`  | `string` | Returns the result of the latest command executed by victim  |
+| `result`  | `string` | Retrieves the result of the latest command executed by victim  |
 
 
 ## Note
