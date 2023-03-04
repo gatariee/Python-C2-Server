@@ -14,7 +14,7 @@ This is a simple C2 server that shouldn't be used for actual engagements, made j
 - Beacon to route traffic between victim and operator
 
 
-
+![img/32726b9450a2eed6d5c5afabdfa671a5.png)](img/32726b9450a2eed6d5c5afabdfa671a5.png)
 
 
 
