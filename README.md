@@ -1,7 +1,9 @@
 # Python C2 Server using HTTP & API Endpoints 
 A basic Python-based Command & Control (C2) server using HTTP & API Endpoints with a beacon to route traffic between victim and operator. 
 
-Do note that this is not meant to be a usable C2 server, and should definitely not be used for actual red team engagements. This is a PoC to to understand a Command & Control Framework. The project aims to showcase the communication and control mechanisms involved in a C2 framework.
+Do note that this is not meant to be a usable C2 server, and should definitely not be used for actual red team engagements. This is a PoC to to understand a Command & Control Framework. 
+
+The project aims to showcase the communication and control mechanisms involved in a C2 framework.
 
 
 
