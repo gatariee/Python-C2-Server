@@ -64,8 +64,13 @@ API calls are handled by the beacon
 | `result`  | `string` | Retrieves the result of the latest command executed by victim  |
 
 
-## Note
+## TODO / Notes
 - API Endpoints are incomplete, you can add/remove/edit the existing endpoints to suit your needs
+- Only the `whoami` command is implemented, more commands can be added via `victim.py`
 - More commands can be implemented if required, these scripts serve as an outline
-
+- The beacon should be modified to use HTTPS instead of HTTP if you want to be stealthier
+- HTTP traffic is very noisy and can be easily detected by IDS/IPS
+- Script flow is heavily dependant on the order of execution, e.g. `main.py` must be executed before `victim.py`
+- The victim must have Python and all its dependencies installed (lol)
+- 
 
