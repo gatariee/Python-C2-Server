@@ -1,4 +1,6 @@
-import threading, time, json
+import threading
+import time
+import json
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 clients = []

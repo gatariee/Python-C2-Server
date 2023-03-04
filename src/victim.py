@@ -1,4 +1,7 @@
-import requests, time, threading, subprocess
+import requests
+import time
+import threading
+import subprocess
 beacon = 'http://localhost:8080'
 def i_am_alive(stop_event):
     while not stop_event.is_set():

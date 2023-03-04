@@ -1,4 +1,7 @@
-import time, threading, requests, json
+import time
+import threading
+import requests
+import json
 
 
 alive_hosts = []
