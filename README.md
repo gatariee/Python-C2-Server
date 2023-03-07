@@ -3,7 +3,7 @@ A shitty Python-based Command & Control (C2) server using HTTP & API Endpoints w
 
 The project aims to showcase the communication and control mechanisms involved in a C2 framework.
 
-*Improved version is available [here](https://github.com/gatariee/PyHTTPShell).
+This is an old project, updated version is available [here](https://github.com/gatariee/PyHTTPShell).
 
 
 
